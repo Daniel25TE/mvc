@@ -46,6 +46,30 @@ public static class SeedData
                 },
                 new Movie
                 {
+                    Title = "Exorcista",
+                    ReleaseDate = DateTime.Parse("1973-12-26"),
+                    Genre = "Horror",
+                    Price = 15.99M,
+                    Rating = "R"
+                },
+                new Movie
+                {
+                    Title = "Buscando a Nemo",
+                    ReleaseDate = DateTime.Parse("2003-5-30"),
+                    Genre = "Adventure",
+                    Price = 10.99M,
+                    Rating = "PG-13"
+                },
+                new Movie
+                {
+                    Title = "Avengers: Doomsday",
+                    ReleaseDate = DateTime.Parse("2026-12-18"),
+                    Genre = "Fiction",
+                    Price = 20.99M,
+                    Rating = "PG-13"
+                },
+                new Movie
+                {
                     Title = "Rio Bravo",
                     ReleaseDate = DateTime.Parse("1959-4-15"),
                     Genre = "Western",
